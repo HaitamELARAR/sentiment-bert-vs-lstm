@@ -1,0 +1,14 @@
+# Needed only to run scripts/summarize_results.py locally (standard library only).
+# The notebooks are run on Google Colab, which already provides PyTorch;
+# each notebook installs its own extra packages (datasets, transformers, accelerate...).
+#
+# To run the notebooks locally instead, install:
+torch
+transformers
+datasets
+accelerate
+scikit-learn
+pandas
+matplotlib
+requests
+jupyterlab
